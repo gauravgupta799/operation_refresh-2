@@ -1,0 +1,144 @@
+@import url("./reset.css");
+@import url("./headerStyles.css");
+@import url("./landingStyle.css");
+@import url("./donateDescStyles.css");
+@import url("./survivourStyles.css");
+@import url("./programsStyles.css");
+@import url("./footerStyles.css");
+@import url("./contactUsStyles.css");
+/* @import url(""); */
+
+@font-face {
+    font-family: 'Object sans';
+    src: url("../Fonts/Object_Sans/ObjectSans-Regular.eot");
+    src: url("../Fonts/Object_Sans/ObjectSans-Regular.otf") format('opentypefile'),
+        url("../Fonts/Object_Sans/ObjectSans-Regular.woff") format('woff'),
+        url("../Fonts/Object_Sans/ObjectSans-Regular.woff2") format('woff2'),
+        url("../Fonts/Object_Sans/ObjectSans-Regular.ttf") format('truetype'),
+        url("../Fonts/Object_Sans/ObjectSans-Regular.svg#ObjectSans-Regular") format('svg');
+    font-weight: 400;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Dm sans';
+    src: url("../Fonts/DM_Sans/DMSans-Regular.eot");
+    src: url("../Fonts/DM_Sans/DMSans-Regular.otf") format('opentypefile'),
+        url("../Fonts/DM_Sans/DMSans-Regular.woff") format('woff'),
+        url("../Fonts/DM_Sans/DMSans-Regular.woff2") format('woff2'),
+        url("../Fonts/DM_Sans/DMSans-Regular.ttf") format('truetype'),
+        url("../Fonts/DM_Sans/DMSans-Regular.svg#DMSans-Regular") format('svg');
+    font-weight: 400;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Dm sans';
+    src: url("../Fonts/DM_Sans/DMSans-Bold.eot");
+    src: url("../Fonts/DM_Sans/DMSans-Bold.otf") format('opentypefile'),
+        url("../Fonts/DM_Sans/DMSans-Bold.woff") format('woff'),
+        url("../Fonts/DM_Sans/DMSans-Bold.woff2") format('woff2'),
+        url("../Fonts/DM_Sans/DMSans-Bold.ttf") format('truetype'),
+        url("../Fonts/DM_Sans/DMSans-Bold.svg#DMSans-Bold") format('svg');
+    font-weight: bold;
+    font-style: normal;
+}
+
+/* 1rem = 1em = 16px */
+
+/* 100% = 16px */
+/* 1px = 100/16= 6.25%*/
+/* 10px = 6.25% * 10 = 62.5% */
+
+/* 1vw = 12px */
+/* 1px = 0.084vw */
+/* 1366px = (1366 * 0.084)vw = 113.833333vw  */
+
+/* 1vh = 10px */
+/* 1px = 0.1vh */
+/* 2969px = (2969 * 0.1)vh = 296.9vh */
+
+:root{
+    /* Colors */
+    --primary-color:#4d148c;
+    --secondary-color:#f96703;
+    --bg-color:#eef1f6;
+    --dark-bg:#eee8f5;
+    --white:#ffffff;
+    --light-white:#EEF1F6;
+    --gray:#4d4d4d;
+    --light-gray:#464646;
+    --dark-gray:#212121;
+    --darker-gray:#1e1e1e;;
+    --border-color:#d8d8d8;
+    --black:#000000;
+
+    --light-green:#54ca9f;
+    --lighter-green:#80d8d1;
+    --light-yellow:#ffe60f;
+
+    --red:red;
+    /* Box-Shadows */
+    --light-shadow:rgba(0,0,0,0.16 );
+
+    /* Font-Sizes */
+    --normal-font:1rem;
+
+    /* Font-Styles */
+    --normal:normal;
+    --bold:bold;
+}
+html{
+     font-size:62.5%;
+}
+body {
+	line-height: 1.3;
+    font-family: 'Object Sans', sans-serif;
+}
+
+a:hover{
+    cursor: pointer;
+}
+button{
+    background: transparent;
+}
+
+
+/* h1{
+    font-size:10rem;
+}
+h2{
+    font-size:7.2rem;
+}
+h3{
+    font-size:5.6rem;
+}
+h4{
+    font-size:2.8rem;
+}
+h5{
+    font-size:2rem;
+}
+h6{
+    font-size:16px;
+} */
+
+/* 
+468px, 768px, 992px, 1280px, 1580px 
+*/
+@media only screen and (min-width:29.25em){
+
+}
+@media only screen and (min-width:48em){
+
+}
+@media only screen and (min-width:62px){
+
+}
+@media only screen and (min-width:80em){
+
+}
+@media only screen and (min-width:98.75em){
+
+}
+
